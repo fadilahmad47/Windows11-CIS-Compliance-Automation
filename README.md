@@ -32,7 +32,7 @@ This project demonstrates end-to-end endpoint hardening, compliance automation, 
 1. Install Wazuh manager (Docker Compose example in docs/).
 2. Deploy agent on Windows 11.
 3. Run initial SCA scan.
-4. Execute `scripts/remediation-master.ps1`.
+4. Execute `scripts/remediation_script_*.ps1`.
 5. Re-scan to verify.
 
 Detailed guide: [docs/hardening-guide.md](docs/hardening-guide.md)
