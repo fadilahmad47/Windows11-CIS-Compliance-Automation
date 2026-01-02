@@ -6,8 +6,6 @@
 
 **From vulnerable defaults to fully hardened: Remediated 332 CIS Level 1/2 misconfigurations on Windows 11 using Wazuh SCA and custom PowerShell automation.**
 
-![Before vs After Compliance](screenshots/compliance-chart.png)
-
 ## Project Overview
 Deployed a Wazuh agent on a Windows 11 host (monitored via Dockerized Wazuh manager in Lubuntu VM). Ran Security Configuration Assessment (SCA) against CIS Microsoft Windows 11 benchmarks:
 - Initial scan: **332 failed policies** (common defaults like weak passwords, disabled auditing, unnecessary services).
@@ -18,8 +16,7 @@ Deployed a Wazuh agent on a Windows 11 host (monitored via Dockerized Wazuh mana
 This project demonstrates end-to-end endpoint hardening, compliance automation, and blue team skills.
 
 ## Key Results
-![Wazuh Dashboard Before](screenshots/dashboard-before.png)
-![Wazuh Dashboard After](screenshots/dashboard-after.png)
+![Wazuh Dashboard](Report/Vulnerability_and_SCA_Result.png)
 
 - Reduced attack surface significantly.
 - Automated fixes for categories: Account Policies, Auditing, User Rights, Services, Firewall, etc.
@@ -41,11 +38,16 @@ This project demonstrates end-to-end endpoint hardening, compliance automation, 
 Detailed guide: [docs/hardening-guide.md](docs/hardening-guide.md)
 
 ## Reports & Scripts
-- Before/After Reports: [/reports](reports/)
+- Reports: [/reports](Report/)
 - Remediation Scripts: [/scripts](scripts/)
 
 ## Future Improvements
 - Integrate with Intune for enterprise deployment.
 - Add alerting for drift detection.
 
-⭐ Star if you found this useful! | LinkedIn: [Your Profile] | Questions? Open an issue!
+
+⭐ Star if you found this useful!    
+
+→ LinkedIn: [linkedin.com/in/fadilahmad47](https://linkedin.com/in/fadilahmad47)    
+
+Questions? Open an issue!
